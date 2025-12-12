@@ -1,0 +1,15 @@
+{
+  "openai_api_key": "env.OPEN_AI_API_KEY",
+  "model": "env.OPEN_AI_MODEL",
+  "conversation_max_tokens": 4096,
+  "speech_recognition": false,
+  "speech_recognition_model": "whisper-1",
+  
+  "single_chat_prefix": ["", "@bot"],
+  "single_chat_reply_prefix": "",
+  "group_chat_prefix": ["@bot"],
+  "group_chat_reply_prefix": "",
+
+  "clear_memory_commands": ["#清除记忆", "#reset"],
+  "use_azure_chatgpt": false
+}
